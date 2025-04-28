@@ -12,8 +12,8 @@ public class EntwederOderRule extends Rule {
     @Override
     public String toXsdAssert() {
         return alternativeFields.stream()
-                .map(field -> field +" != ''")
-                .reduce((a,b) -> a + " or "+b)
+                .map(field -> field + " != ''")
+                .reduce((a, b) -> a + " or " + b)
                 .orElse("true()");
     }
 }

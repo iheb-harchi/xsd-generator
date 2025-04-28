@@ -18,46 +18,46 @@ public class Condition {
         andConditions = andConditions;
     }
 
-    public static Condition of(String field, String operator, String value){
+    public static Condition of(String field, String operator, String value) {
         return new Condition(field, operator, value, null, null);
     }
 
-    public static Condition or(List<Condition> conditions){
+    public static Condition or(List<Condition> conditions) {
         return new Condition(null, null, null, conditions, null);
     }
 
-    public static Condition and(List<Condition> conditions){
+    public static Condition and(List<Condition> conditions) {
         return new Condition(null, null, null, null, conditions);
     }
 
-    public boolean isLogical(){
-        return isNotNullOrEmpty(orConditions)|| isNotNullOrEmpty(andConditions);
+    public boolean isLogical() {
+        return isNotNullOrEmpty(orConditions) || isNotNullOrEmpty(andConditions);
     }
 
-    public String toXsdAssert(){
-        if(isLogical()){
-            if (isNotNullOrEmpty(orConditions)){
+    public String toXsdAssert() {
+        if (isLogical()) {
+            if (isNotNullOrEmpty(orConditions)) {
                 return orConditions.stream()
                         .map(Condition::toXsdAssert)
-                        .reduce((a,b)-> a + " or " + b)
+                        .reduce((a, b) -> a + " or " + b)
                         .orElse("true()");
-            } else{
+            } else {
                 return andConditions.stream()
                         .map(Condition::toXsdAssert)
-                        .reduce((a,b)-> a + " and " + b)
+                        .reduce((a, b) -> a + " and " + b)
                         .orElse("true()");
             }
-        }else {
-            return switch (operator){
+        } else {
+            return switch (operator) {
                 case "exists" -> field + " != ''";
                 case "=" -> field + " = " + value;
                 case "!=" -> field + " != " + value;
-                default -> throw new IllegalArgumentException("inbekannter Operator: "+ operator);
+                default -> throw new IllegalArgumentException("inbekannter Operator: " + operator);
             };
         }
     }
 
-    public boolean isNotNullOrEmpty(List<Condition> list){
+    public boolean isNotNullOrEmpty(List<Condition> list) {
         return null != list && !list.isEmpty();
     }
 }

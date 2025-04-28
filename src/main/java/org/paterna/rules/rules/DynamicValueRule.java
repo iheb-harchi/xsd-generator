@@ -14,17 +14,17 @@ public class DynamicValueRule extends Rule {
     }
 
     @Override
-    public String toXsdAssert(){
+    public String toXsdAssert() {
         StringBuilder sb = new StringBuilder();
         dateValueMap.forEach((range, value) -> {
             String[] dates = range.split(" - ");
             sb.append(String.format(
-                    "if (%s >= xs:date('%s') and %s <= xs:date('%s')) then $value = '%s' else ",
-                    dateField, convertToXSDate(dates[0]),
-                    dateField, convertToXSDate(dates[1]),
-                    valueField, value
+                            "if (%s >= xs:date('%s') and %s <= xs:date('%s')) then $value = '%s' else ",
+                            dateField, convertToXSDate(dates[0]),
+                            dateField, convertToXSDate(dates[1]),
+                            valueField, value
 
-            )
+                    )
             );
         });
         sb.append("true();");
@@ -33,6 +33,6 @@ public class DynamicValueRule extends Rule {
 
     private String convertToXSDate(String date) {
         String[] parts = date.split("\\.");
-        return parts[2]+"-"+parts[1]+"-"+parts[0];
+        return parts[2] + "-" + parts[1] + "-" + parts[0];
     }
 }

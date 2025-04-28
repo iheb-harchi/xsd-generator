@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+ <xs:element name="LUFT1.0_LOA_FFS1110-1">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-2">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A1
+ Type: 
+ Wertebereich: 
+ Condition: Antragstitel auf jeder Seite anzeigen
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-3">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-4">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A2.1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-5">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A2.2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-162">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A2.3
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-163">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A2.4
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-6">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A3
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-7">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A4
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-8">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A5
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-9">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A6
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-10">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A7
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-11">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A8
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-12">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A9
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-13">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A10
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-14">
+ <xs:annotation>
+ <xs:documentation>
+ Text: A11
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-159">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-160">
+ <xs:annotation>
+ <xs:documentation>
+ Text: Bitte die Daten aus dem Vorblatt entnehmen
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-15">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-16">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-17">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C2.1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-18">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C2.2
+ Type: alphanummerisch 0..56
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-161">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-19">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C2.3
+ Type: alphanummerisch + Sonderzeichen 0..15
+ Wertebereich: Werte von 0-9, /, +, - oder Leerzeichen zulässig, bis zu 15 Stellen
+ Condition: Entweder C2.3 oder C2.5 ist Pflichtfeld
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-20">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C2.4
+ Type: alphanummerisch + Sonderzeichen 0..15
+ Wertebereich: Werte von 0-9, /, +, - oder Leerzeichen zulässig, bis zu 15 Stellen
+
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-21">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C2.5
+ Type: alphanummerisch 0..56
+ Wertebereich: gültige E-Mail-Adresse
+ Condition: Entweder C2.3 oder C2.5 ist Pflichtfeld
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-22">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C3
+ Type: 
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-23">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C3.1
+ Type:  C3.1; C3.2
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-24">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C3.2
+ Type:  C3.1; C3.2
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-25">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C4
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-26">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C5
+ Type: das Datumsintervall kann entweder genau 1 Tag oder 1 Monat umfassen
+Datum muss >= 01.08.2012;
+das Datum darf nicht in der Zukunft liegen (die Anmeldung für den angefangenen Monat soll möglich sein);
+Die Plausibilisierung des Anmeldezeitraumes soll für die Monate Dezember bis einschließlich des Jahres 2019 ausgesetzt werden. (für die benannten Dezembermonate soll die Eintragung eines beliebigen Zeitraumes möglich sein)
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-27">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C6
+ Type: das Datumsintervall kann entweder genau 1 Tag oder 1 Monat umfassen
+Datum muss >= 01.08.2012;
+das Datum darf nicht in der Zukunft liegen (die Anmeldung für den angefangenen Monat soll möglich sein);
+Die Plausibilisierung des Anmeldezeitraumes soll für die Monate Dezember bis einschließlich des Jahres 2019 ausgesetzt werden.
+(für die benannten Dezembermonate soll die Eintragung eines beliebigen Zeitraumes möglich sein)
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-28">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C7
+ Type: 
+ Wertebereich: 
+ Condition: nur anzeigen wenn C3.1 ausgewählt
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-29">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C7.1
+ Type: 
+ Wertebereich: 
+ Condition: nur anzeigen wenn C3.2 ausgewählt
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-30">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C8
+ Type: 
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-31">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C8.1
+ Type: C8.1;C8.2
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-32">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C8.2
+ Type: C8.1;C8.2
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-33">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C9
+ Type: 
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-34">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C9.1
+ Type: C9.1;C9.2
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-35">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C9.2
+ Type: C9.1;C9.2
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-36">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C12
+ Type: 
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-37">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C13
+ Type: alphanummerisch 0..75 
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-38">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C14
+ Type: DD Länderliste Vorblatt
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-39">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C15
+ Type: alphanummerisch  + Sonderzeichen 0..15
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+
+Wenn C15 ungleich Deutschland, dann kein Pflichtfeld
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-40">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C16
+ Type: alphanummerisch 0..35
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-41">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C17
+ Type: alphanummerisch 0..35
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-42">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C18
+ Type: alphanummerisch 0..15
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-43">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C19
+ Type: alphanummerisch 0..35
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-44">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C20
+ Type: alphanummerisch 0..35
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-45">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C21
+ Type: DD Rechtsformliste Vorblatt
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-46">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C22
+ Type: Ja/Nein
+ Wertebereich: 
+ Condition: Wenn bei ID C8.2 "einen steuerlichen Beauftragten nach § 8 LuftVStG." ausgewählt wird dann dieses Feld anzeigen, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-47">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C23
+ Type: nummerisch 6
+ Wertebereich: 
+ Condition: nur anzeigen wenn C22 ausgewählt mit "Ja"
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-48">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C37
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-49">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C37.1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-50">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C38
+ Type: Unbeschreibbar vorbelegt mit LVA
+
+
+ Wertebereich: 
+ Condition: Unbeschreibbar vorbelegt mit LVA
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-51">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C39
+ Type: nummerisch 4
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-52">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C40
+ Type: 
+ Wertebereich: 
+ Condition: Wenn im Vorblatt/Antragsdaten im jeweiligen unten genannten Feld (C23, A19, AA18) eine Luftverkehrsteuernummer enthalten ist, muss diese hier nach den unten genannten Bedingungen automatisch eingetragen werden und darf nicht änderbar sein.
+Wenn das Feld nicht automatisch vorbefüllt wird, soll es trotzdem nicht beschreibbar sein.
+
+• Wenn das Feld C 8.2 angewählt ist, (Anmelder ist ein steuerlicher Beauftragter), so ist die Luftverkehrsteuernummer aus dem Feld C23 zu übernehmen.
+•  Wenn das Feld C 8.1 angewählt ist und die Anmeldung nicht durch einen Vertreter abgegeben wird, (Anmelder ist das Luftverkehrsunternehmen)  so ist die Luftverkehrsteuernummer aus dem Vorblatt Feld A19 zu übernehmen.
+• Wenn das Feld C 8.1 angewählt ist und die Anmeldung durch einen Vertreter abgegeben wird, (Anmelder ist das Luftverkehrsunternehmen) so ist die Luftverkehrsteuernummer aus dem Vorblatt Feld AA18 zu übernehmen.
+
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-53">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C41
+ Type: 
+ Wertebereich: 
+ Condition: automatisch aus Datumfeld C6 befüllen
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-54">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C42
+ Type: 
+ Wertebereich: 
+ Condition: automatisch aus Datumfeld C6 befüllen
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-55">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C43
+ Type: 
+ Wertebereich: 
+ Condition: automatisch aus dem Vorblatt befüllen
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-56">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C43.1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-57">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C44
+ Type: Unbeschreibbar vorbelegt mit LVB
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 "Steuerberichtigung einer Steuermeldung ab." ausgewählt wurde, sonst nicht anzeigen.
+
+Unbeschreibbar vorbelegt mit LVB
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-58">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C45
+ Type: nummerisch 4
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 "Steuerberichtigung einer Steuermeldung ab." ausgewählt wurde, sonst nicht anzeigen.
+
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-59">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C46
+ Type: 
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 "Steuerberichtigung einer Steuermeldung ab." ausgewählt wurde, sonst nicht anzeigen.
+
+
+Wenn im Vorblatt/Antragsdaten im jeweiligen unten genannten Feld (C23, A19, AA18) eine Luftverkehrsteuernummer enthalten ist, muss diese hier nach den unten genannten Bedingungen automatisch eingetragen werden und darf nicht änderbar sein.
+Wenn das Feld nicht automatisch vorbefüllt wird, soll es trotzdem nicht beschreibbar sein.
+
+• Wenn das Feld C 8.2 angewählt ist, (Anmelder ist ein steuerlicher Beauftragter), so ist die Luftverkehrsteuernummer aus dem Feld C23 zu übernehmen.
+•  Wenn das Feld C 8.1 angewählt ist und die Anmeldung nicht durch einen Vertreter abgegeben wird, (Anmelder ist das Luftverkehrsunternehmen)  so ist die Luftverkehrsteuernummer aus dem Vorblatt Feld A19 zu übernehmen.
+• Wenn das Feld C 8.1 angewählt ist und die Anmeldung durch einen Vertreter abgegeben wird, (Anmelder ist das Luftverkehrsunternehmen) so ist die Luftverkehrsteuernummer aus dem Vorblatt Feld AA18 zu übernehmen.
+
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-60">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C47
+ Type: 
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 "Steuerberichtigung einer Steuermeldung ab." ausgewählt wurde, sonst nicht anzeigen.
+
+automatisch aus Datumfeld C6 befüllen
+muss gleichen wert wie C41 enthalten
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-61">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C48
+ Type: 
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 "Steuerberichtigung einer Steuermeldung ab." ausgewählt wurde, sonst nicht anzeigen.
+
+automatisch aus Datumfeld C6 befüllen
+muss gleichen wert wie C42 enthalten
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-62">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C49
+ Type: 
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 "Steuerberichtigung einer Steuermeldung ab." ausgewählt wurde, sonst nicht anzeigen.
+
+automatisch aus dem Vorblatt befüllen
+muss gleichen wert wie C43 enthalten
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-63">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C50
+ Type: nummerisch genau 10
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-64">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C51
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-65">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C52
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-66">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C52.1
+ Type: 
+ Wertebereich: 
+ Condition: Info zur Entwicklung (nicht anzeigen)
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-67">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C53
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-68">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C54
+ Type: max 10 Vorkommastellen und max 2 Nachkommastellen
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 7,5
+01.01.2016 - 31.12.2016 --> 7,38
+01.01.2017 - 31.12.2017 --> 7,47
+01.01.2018 - 31.12.2018 --> 7,46
+01.01.2019 - 31.12.2019 --> 7,38
+01.01.2020 - 31.03.2020 --> 7,37
+01.04.2020 - 31.12.2020 --> 12,9
+01.01.2021 - 31.12.2021 --> 12,88
+01.01.2022 - 31.12.2022  --> 12,77
+01.01.2023 - 31.12.2023  --> 12,73
+01.01.2024 -
+30.04.2024  --> 12,48
+01.05.2024 -
+auf weiteres --> 15,53
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-69">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C55
+ Type: max 10 Vorkommastellen und max 2 Nachkommastellen
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 1,5
+01.01.2016 - 31.12.2016 --> 1,48
+01.01.2017 - 31.12.2017 --> 1,49
+01.01.2018 - 31.12.2018 --> 1,49
+01.01.2019 - 31.12.2019 --> 1,48
+01.01.2020 - 31.03.2020 --> 1,47
+01.04.2020 - 31.12.2020 --> 2,58
+01.01.2021 - 31.12.2021 --> 2,58
+01.01.2022 - 31.12.2022 --> 2,55
+01.01.2023 - 31.12.2023 --> 2,55
+01.01.2024 - 30.04.2024 --> 2,50
+01.05.2024 -
+auf weiteres --> 3,11
+
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-70">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C56
+ Type: max 10 Vorkommastellen und max 2 Nachkommastellen
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 23,43
+01.01.2016 - 31.12.2016 --> 23,05
+01.01.2017 - 31.12.2017 --> 23,32
+01.01.2018 - 31.12.2018 --> 23,31
+01.01.2019 - 31.12.2019 --> 23,05
+01.01.2020 - 31.03.2020 --> 23,01
+01.04.2020 - 31.12.2020 --> 32,67
+01.01.2021 - 31.12.2021 --> 32,62
+01.01.2022 - 31.12.2022  --> 32,35
+01.01.2023 - 31.12.2023  --> 32,25
+01.01.2024 - 30.04.2024  --> 31,61
+01.05.2024 -
+auf weiteres --> 39,34
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-71">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C57
+ Type: max 10 Vorkommastellen und max 2 Nachkommastellen
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 42,18
+01.01.2016 - 31.12.2016 --> 41,19
+01.01.2017 - 31.12.2017 --> 41,99
+01.01.2018 - 31.12.2018 --> 41,97
+01.01.2019 - 31.12.2019 --> 41,49
+01.01.2020 - 31.03.2020 --> 41,43
+01.04.2020 - 31.12.2020 --> 58,82
+01.01.2021 - 31.12.2021 --> 58,73
+01.01.2022 - 31.12.2022  --> 58,23
+01.01.2023 - 31.12.2023  --> 58,06
+01.01.2024 - 30.04.2024  --> 56,91
+01.05.2024 -
+auf weiteres --> 70,83
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-72">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C58
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-73">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C59
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-74">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C60
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-75">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C61
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-76">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C62
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-77">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C63
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-78">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C63.1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-79">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C63.2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-80">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C63.3
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-81">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C63.4
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-82">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C65
+ Type: Summe aus (C63.1; C63.2; C63.3; C63.4)
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-83">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C66
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-84">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C67
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-85">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C67.1
+ Type: 
+ Wertebereich: 
+ Condition: Info zur Entwicklung (nicht anzeigen)
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-86">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C68
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-87">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C69
+ Type: 
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 7,5
+01.01.2016 - 31.12.2016 --> 7,38
+01.01.2017 - 31.12.2017 --> 7,47
+01.01.2018 - 31.12.2018 --> 7,46
+01.01.2019 - 31.12.2019 --> 7,38
+01.01.2020 - 31.03.2020 --> 7,37
+01.04.2020 - 31.12.2020 --> 12,9
+01.01.2021 - 31.12.2021 --> 12,88
+01.01.2022 - 31.12.2022  --> 12,77
+01.01.2023 - 31.12.2023  --> 12,73
+01.01.2024 -
+30.04.2024  --> 12,48
+01.05.2024 -
+auf weiteres --> 15,53
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-88">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C70
+ Type: 
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 23,43
+01.01.2016 - 31.12.2016 --> 23,05
+01.01.2017 - 31.12.2017 --> 23,32
+01.01.2018 - 31.12.2018 --> 23,31
+01.01.2019 - 31.12.2019 --> 23,05
+01.01.2020 - 31.03.2020 --> 23,01
+01.04.2020 - 31.12.2020 --> 32,67
+01.01.2021 - 31.12.2021 --> 32,62
+01.01.2022 - 31.12.2022  --> 32,35
+01.01.2023 - 31.12.2023  --> 32,25
+01.01.2024 - 30.04.2024  --> 31,61
+01.05.2024 -
+auf weiteres --> 39,34
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-89">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C71
+ Type: 
+ Wertebereich: 
+ Condition: abhängig von C5;C6 ist der in der Zeitspanne gültige Steuersatz zuwählen
+
+01.01.2012 - 31.12.2015 --> 42,18
+01.01.2016 - 31.12.2016 --> 41,19
+01.01.2017 - 31.12.2017 --> 41,99
+01.01.2018 - 31.12.2018 --> 41,97
+01.01.2019 - 31.12.2019 --> 41,49
+01.01.2020 - 31.03.2020 --> 41,43
+01.04.2020 - 31.12.2020 --> 58,82
+01.01.2021 - 31.12.2021 --> 58,73
+01.01.2022 - 31.12.2022 --> 58,23
+01.01.2023 - 31.12.2023  --> 58,06
+01.01.2024 - 30.04.2024  --> 56,91
+01.05.2024 -
+auf weiteres --> 70,83
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-90">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C72
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-91">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C73
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-92">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C74
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-93">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C75
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-94">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C76
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-95">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C77
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-96">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C78
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-97">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C79
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-98">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C80
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-99">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C81
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-100">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C82
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-101">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C83
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-102">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C84
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-103">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C85
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-104">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C86
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-105">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C87
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-106">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C88
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-107">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C89
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-108">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C90
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-109">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C91
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-110">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C92
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-111">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C93
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-112">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C94
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-113">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C95
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-114">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C96
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-115">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C97
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-116">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C98
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-117">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C99
+ Type: nur ganze, max. 8-stellige Zahlen und ggf. ein vorangestelltes Minus
+
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-118">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C100
+ Type: 
+ Wertebereich: 
+ Condition: Nur anzeigen wenn ID C3.2 = "Steuerberichtigung einer Steuermeldung ab." und der Gesamtbetrag in C65 kleiner 0 ist, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-119">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C101
+ Type: alphanummerisch 0..100
+ Wertebereich: 
+ Condition: Nur anzeigen und Pflichtfeld wenn ID C3.2 = "Steuerberichtigung einer Steuermeldung ab." und der Gesamtbetrag in C65 kleiner 0 ist, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-120">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C102
+ Type: gültige IBAN
+ Wertebereich: 
+ Condition: Nur anzeigen und Pflichtfeld wenn ID C3.2 = "Steuerberichtigung einer Steuermeldung ab." und der Gesamtbetrag in C65 kleiner 0 ist, sonst nicht anzeigen.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-121">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C102.1
+ Type: Großbuchstaben und Ziffern, max. 11 Stellen
+ Wertebereich: 
+ Condition: Nur anzeigen und Pflichtfeld wenn ID C3.2 = "Steuerberichtigung einer Steuermeldung ab." und der Gesamtbetrag in C65 kleiner 0 ist, sonst nicht anzeigen.
+
+Nur Pflichtfeld, wenn im Feld IBAN, ID 1110 - 120, keine gültige IBAN aus dem EWR eingetragen ist (IBAN-only).
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-122">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C102.2
+ Type: alphanummerisch 0..30
+ Wertebereich: 
+ Condition: 
+
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-123">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C104
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-124">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C105
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-125">
+ <xs:annotation>
+ <xs:documentation>
+ Text: C106
+ Type: 
+ Wertebereich: 
+ Condition: Wurde eine Steueranmeldung abgegeben (Feld C3.1  angewählt) so muss mindestens in einem der Felder steuerpflichtige (C59-C62) oder steuerbefreite (C73-C75, C77-C79, C81-C83, C85-C87, C89-C91, C93-C95, C97-C99) Rechtsvorgänge eine Zahl größer oder gleich "0" eingetragen sein.
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-126">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-127">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-128">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-129">
+ <xs:annotation>
+ <xs:documentation>
+ Text: -
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-130">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D4
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-131">
+ <xs:annotation>
+ <xs:documentation>
+ Text: -
+ Type: 
+ Wertebereich: 
+ Condition: -
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-132">
+ <xs:annotation>
+ <xs:documentation>
+ Text: -
+ Type: -
+ Wertebereich: 
+ Condition: -
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-133">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D6
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-134">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D7
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-135">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D8
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-136">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D98
+ Type: 31-Dez.-1899
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-137">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D99
+ Type: 31-Dez.-1899
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-138">
+ <xs:annotation>
+ <xs:documentation>
+ Text: D100
+ Type: 31-Dez.-1899
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-139">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-140">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-141">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-142">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E3
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-143">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E4
+ Type: 
+ Wertebereich: 
+ Condition: Zurück zu B)
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-144">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E5
+ Type: 
+ Wertebereich: 
+ Condition: Zurück zu C)
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-145">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E6
+ Type: 
+ Wertebereich: 
+ Condition: Zurück zu D)
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-146">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E7
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-147">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E8
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-148">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E10
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-149">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E11
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-150">
+ <xs:annotation>
+ <xs:documentation>
+ Text: E12
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-151">
+ <xs:annotation>
+ <xs:documentation>
+ Text: 
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-152">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G1
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-153">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G2
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-154">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G3
+ Type: Bitte Adresse aus dem Vorblatt für zuständiges HZA übernehmen
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-155">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G4
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-156">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G5
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-157">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G6
+ Type: 
+ Wertebereich: 
+ Condition: Zurück zu A)
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+ <xs:element name="LUFT1.0_LOA_FFS1110-158">
+ <xs:annotation>
+ <xs:documentation>
+ Text: G7
+ Type: 
+ Wertebereich: 
+ Condition: 
+ </xs:documentation>
+ </xs:annotation>
+ </xs:element>
+</xs:schema>

@@ -4,13 +4,13 @@ import java.util.List;
 
 public class Formular {
 
-    private List<FormField> formFields;
+	private List<FormField> formFields;
 
-    public List<FormField> getFormFields() {
-        return formFields;
-    }
+	public List<FormField> getFormFields() {
+		return formFields;
+	}
 
-    public void setFormFields(List<FormField> formFields) {
-        this.formFields = formFields;
-    }
+	public void setFormFields(List<FormField> formFields) {
+		this.formFields = formFields;
+	}
 }

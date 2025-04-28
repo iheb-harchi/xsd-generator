@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="LUFT1.0_LOA_FFS1110-1">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-2">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-3">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-4">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-5">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-162">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-163">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-6">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-7">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-8">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-9">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-10">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-11">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-12">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-13">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-14">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-159">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-160">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-15">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-16">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-17">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-18">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-161">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-19">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="C2.3 != '' or C2.5 != ''"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-20">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-21">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="C2.3 != '' or C2.5 != ''"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-22">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-23">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-24">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-25">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-26">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-27">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-28">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-29">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-30">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-31">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-32">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-33">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-34">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-35">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-36">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-37">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-38">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-39">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-40">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-41">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-42">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-43">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-44">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-45">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-46">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-47">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-48">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-49">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-50">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-51">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-52">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-53">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="$value = $C6"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-54">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="$value = $C6"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-55">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-56">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-57">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-58">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-59">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-60">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-61">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-62">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-63">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-64">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-65">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-66">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-67">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-68">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '7.38' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '12.73' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '12.77' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '7.37' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '15.53' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '12.88' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '7.5' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '7.38' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '12.9' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '7.46' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '12.48' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '7.47' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-69">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '1.48' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '2.55' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '2.55' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '1.47' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '3.11' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '2.58' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '1.5' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '1.48' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '2.58' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '1.49' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '2.50' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '1.49' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-70">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '23.05' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '32.25' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '32.35' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '23.01' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '39.34' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '32.62' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '23.43' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '23.05' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '32.67' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '23.31' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '31.61' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '23.32' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-71">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '41.19' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '58.06' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '58.23' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '41.43' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '70.83' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '58.73' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '42.18' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '41.49' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '58.82' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '41.97' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '56.91' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '41.99' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-72">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-73">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-74">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-75">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-76">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-77">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-78">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-79">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-80">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-81">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-82">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-83">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-84">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-85">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-86">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-87">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '7.38' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '12.73' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '12.77' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '7.37' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '15.53' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '12.88' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '7.5' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '7.38' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '12.9' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '7.46' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '12.48' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '7.47' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-88">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '23.05' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '32.25' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '32.35' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '23.01' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '39.34' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '32.62' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '23.43' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '23.05' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '32.67' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '23.31' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '31.61' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '23.32' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-89">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = '41.19' else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = '58.06' else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = '58.23' else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = '41.43' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = '70.83' else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = '58.73' else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = '42.18' else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = '41.49' else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = '58.82' else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = '41.97' else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = '56.91' else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = '41.99' else true();"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-90">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-91">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-92">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-93">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-94">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-95">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-96">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-97">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-98">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-99">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-100">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-101">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-102">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-103">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-104">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-105">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-106">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-107">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-108">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-109">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-110">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-111">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-112">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-113">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-114">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-115">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-116">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-117">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-118">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-119">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0,00) then true() else false()"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-120">
+    <xs:annotation>
+      <xs:documentation>
+ <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0,00) then true() else false()"/>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-121">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-122">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-123">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-124">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-125">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-126">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-127">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-128">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-129">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-130">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-131">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-132">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-133">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-134">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-135">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-136">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-137">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-138">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-139">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-140">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-141">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-142">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-143">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-144">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-145">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-146">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-147">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-148">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-149">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-150">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-151">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-152">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-153">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-154">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-155">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-156">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-157">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LUFT1.0_LOA_FFS1110-158">
+    <xs:annotation>
+      <xs:documentation>
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+</xs:schema>

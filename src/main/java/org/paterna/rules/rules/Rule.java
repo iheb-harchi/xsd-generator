@@ -1,12 +1,8 @@
 package org.paterna.rules.rules;
 
-import org.paterna.rules.Condition;
-
 public abstract class Rule {
 
-    protected String tqrgetField;
-    protected Condition condition;
+	protected String tqrgetField;
 
-
-    public abstract String toXsdAssert();
+	public abstract String toXsdAssert();
 }

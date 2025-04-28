@@ -3,36 +3,33 @@ package org.paterna.rules.rules;
 import java.util.Map;
 
 public class DynamicValueRule extends Rule {
-    private String dateField;
-    private String valueField;
-    private Map<String, String> dateValueMap;
+	private String startDateField;
+	private String endDateField;
 
-    public DynamicValueRule(String dateField, String valueField, Map<String, String> dateValueMap) {
-        this.dateField = dateField;
-        this.valueField = valueField;
-        this.dateValueMap = dateValueMap;
-    }
+	private Map<String, String> dateValueMap;
 
-    @Override
-    public String toXsdAssert() {
-        StringBuilder sb = new StringBuilder();
-        dateValueMap.forEach((range, value) -> {
-            String[] dates = range.split(" - ");
-            sb.append(String.format(
-                            "if (%s >= xs:date('%s') and %s <= xs:date('%s')) then $value = '%s' else ",
-                            dateField, convertToXSDate(dates[0]),
-                            dateField, convertToXSDate(dates[1]),
-                            valueField, value
+	public DynamicValueRule(String startDateField, String endDateField, Map<String, String> dateValueMap) {
+		this.startDateField = startDateField;
+		this.endDateField = endDateField;
+		this.dateValueMap = dateValueMap;
+	}
 
-                    )
-            );
-        });
-        sb.append("true();");
-        return sb.toString();
-    }
+	@Override
+	public String toXsdAssert() {
+		StringBuilder sb = new StringBuilder();
+		dateValueMap.forEach((range, value) -> {
+			String[] dates = range.split(" - ");
+			sb.append(String.format("if (%s &gt;= xs:date('%s') and %s &lt;= xs:date('%s')) then $value = '%s' else ",
+					startDateField, convertToXSDate(dates[0]), endDateField, convertToXSDate(dates[1]), value
 
-    private String convertToXSDate(String date) {
-        String[] parts = date.split("\\.");
-        return parts[2] + "-" + parts[1] + "-" + parts[0];
-    }
+			));
+		});
+		sb.append("true();");
+		return sb.toString();
+	}
+
+	private String convertToXSDate(String date) {
+		String[] parts = date.split("\\.");
+		return parts[2] + "-" + parts[1] + "-" + parts[0];
+	}
 }

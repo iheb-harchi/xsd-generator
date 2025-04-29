@@ -13,7 +13,7 @@ public class AutoFillRegelParser extends RuleParser<AutoFillRule> {
 	@Override
 	public AutoFillRule parse(String text) {
 		Matcher matcher = PATTERN.matcher(text);
-		if (!matcher.matches()) {
+		if (!matcher.find()) {
 			throw new IllegalArgumentException("Auto Fill Regel ungültig: " + text);
 		}
 		return new AutoFillRule(matcher.group(1));

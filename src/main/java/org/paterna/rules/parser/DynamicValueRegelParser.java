@@ -18,7 +18,7 @@ public class DynamicValueRegelParser extends RuleParser<DynamicValueRule> {
 	@Override
 	public DynamicValueRule parse(String text) {
 		Matcher headerMatcher = HEADER_PATTERN.matcher(text);
-		if (!headerMatcher.matches()) {
+		if (!headerMatcher.find()) {
 			throw new IllegalArgumentException("Ungütiges Format " + text);
 		}
 

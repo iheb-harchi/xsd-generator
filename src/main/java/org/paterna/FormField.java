@@ -1,12 +1,14 @@
 package org.paterna;
 
 public class FormField {
+
+	public static final String FIELD_PATTERN = "^[A-Za-z]\\d+(?:\\.\\d+)?$";
+
 	private String id;
 	private String name;
 	private String text;
 	private String type;
 	private String condition;
-	private String werteBereich;
 
 	public String getId() {
 		return id;
@@ -29,7 +31,13 @@ public class FormField {
 	}
 
 	public void setText(String text) {
-		this.text = text;
+		System.err.println(text);
+		if (text == null || !text.matches(FIELD_PATTERN)) {
+			this.text = id;
+		} else {
+			this.text = text;
+		}
+
 	}
 
 	public String getType() {
@@ -46,13 +54,5 @@ public class FormField {
 
 	public void setCondition(String condition) {
 		this.condition = condition;
-	}
-
-	public String getWerteBereich() {
-		return werteBereich;
-	}
-
-	public void setWerteBereich(String werteBereich) {
-		this.werteBereich = werteBereich;
 	}
 }

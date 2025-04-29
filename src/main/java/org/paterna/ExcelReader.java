@@ -1,15 +1,15 @@
 package org.paterna;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 public class ExcelReader {
 
@@ -29,8 +29,12 @@ public class ExcelReader {
 
 			formField.setId(getCellValue(row.getCell(0)));
 			formField.setText(getCellValue(row.getCell(5)));
-			formField.setType(getCellValue(row.getCell(18)));
-			formField.setWerteBereich(getCellValue(row.getCell(19)));
+			String aenderung = getCellValue(row.getCell(19));
+			if (null != aenderung && !aenderung.isEmpty()) {
+				formField.setType(aenderung);
+			} else {
+				formField.setType(getCellValue(row.getCell(18)));
+			}
 			formField.setCondition(getCellValue(row.getCell(14)));
 			rows.add(formField);
 

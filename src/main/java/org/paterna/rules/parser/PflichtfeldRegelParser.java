@@ -17,7 +17,7 @@ public class PflichtfeldRegelParser extends RuleParser<PflichtfeldRegel> {
 	public PflichtfeldRegel parse(String text) {
 		// Matcher für den Text
 		Matcher matcher = PATTERN.matcher(text);
-		if (!matcher.matches()) {
+		if (!matcher.find()) {
 			throw new IllegalArgumentException("Ungültiges Format: " + text);
 		}
 
@@ -28,7 +28,7 @@ public class PflichtfeldRegelParser extends RuleParser<PflichtfeldRegel> {
 		String wert2 = matcher.group(4); // 0 (kleiner als)
 
 		// Erstellen und Rückgabe der Rule
-		return new PflichtfeldRegel(feldName1, wert1, feldName2, Double.parseDouble(wert2));
+		return new PflichtfeldRegel(feldName1, wert1, feldName2, Integer.parseInt(wert2.trim()));
 	}
 
 	@Override

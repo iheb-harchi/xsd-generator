@@ -1,11 +1,7 @@
 package org.paterna.rules.rules;
 
-import java.util.regex.Pattern;
-
 public class AutoFillRule extends Rule {
 	private String dateField;
-	private static final Pattern PATTERN = Pattern
-			.compile("automatisch aus Datumfeld ([A-Za-z]\\\\d+(?:\\\\.\\\\d+)?) befüllen");
 
 	public AutoFillRule(String field) {
 		this.dateField = field;
@@ -18,7 +14,7 @@ public class AutoFillRule extends Rule {
 		}
 
 		// XSD-Element erstellen und das Datumfeld zuweisen
-		return String.format("$value = $%s", dateField);
+		return String.format("$value = ../%s", dateField);
 	}
 
 }

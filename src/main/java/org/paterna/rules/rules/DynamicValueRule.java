@@ -19,8 +19,10 @@ public class DynamicValueRule extends Rule {
 		StringBuilder sb = new StringBuilder();
 		dateValueMap.forEach((range, value) -> {
 			String[] dates = range.split(" - ");
-			sb.append(String.format("if (%s &gt;= xs:date('%s') and %s &lt;= xs:date('%s')) then $value = '%s' else ",
-					startDateField, convertToXSDate(dates[0]), endDateField, convertToXSDate(dates[1]), value
+			System.err.println("**********" + value + "  " + Double.parseDouble(value) + " *********");
+			sb.append(String.format("if (%s &gt;= xs:date('%s') and %s &lt;= xs:date('%s')) then $value = %.2f else ",
+					startDateField, convertToXSDate(dates[0]), endDateField, convertToXSDate(dates[1]),
+					Double.parseDouble(value)
 
 			));
 		});

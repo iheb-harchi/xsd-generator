@@ -2,6 +2,7 @@ package org.paterna;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 	public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class Main {
 
 		try {
 			List<FormField> rows = ExcelReader.parseExcel("src/main/resources/formular.xlsx");
+			rows.stream().map(a -> a.getType()).distinct().collect(Collectors.toList()).forEach(System.out::println);
 			XsdGenerator generator = new XsdGenerator();
 			generator.generateXSD(rows, "src/main/resources/generated.xsd");
 		} catch (IOException e) {
@@ -27,7 +29,7 @@ public class Main {
 //List<String> conditions = rows.stream().map(a -> a.getCondition()).filter(c -> !c.equals("") && null != c &&
 ////					!(dynamicValueRegelParser.matchesPattern(c) || entwederOderRegelParser.matchesPattern(c)
 ////							|| autoFillRegelParser.matchesPattern(c) || sameValueRegelParser.matchesPattern(c)
-////							|| ungleichRegelParser.matchesPattern(c) || 
+////							|| ungleichRegelParser.matchesPattern(c) ||
 //					pflichtfeldRegelParser.matchesPattern(c))
 //
 //
@@ -41,7 +43,7 @@ public class Main {
 //		} catch (IOException e) {
 //			e.printStackTrace();
 //		}
-//		
+//
 //		String regelText = "Nur anzeigen und Pflichtfeld wenn ID C3.2 = \"Steuerberichtigung einer Steuermeldung ab.\" und der Gesamtbetrag in C65 kleiner 0 ist, sonst nicht anzeigen.";
 //
 //        // Erstelle den Parser

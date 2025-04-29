@@ -15,7 +15,7 @@ public class EntwederOderRegelParser extends RuleParser<EntwederOderRule> {
 	@Override
 	public EntwederOderRule parse(String text) {
 		Matcher matcher = PATTERN.matcher(text);
-		if (!matcher.matches()) {
+		if (!matcher.find()) {
 			throw new IllegalArgumentException("ENtwerder Oder Regel ungültig!");
 		}
 		return new EntwederOderRule(List.of(matcher.group(1), matcher.group(2)));

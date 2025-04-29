@@ -12,7 +12,7 @@ public class UngleichRule extends Rule {
 
 	@Override
 	public String toXsdAssert() {
-		return String.format("<xs:assert test=\"if (%s != '%s') then false() else true()\"/>", feldName, vergleichWert);
+		return String.format("if (%s != '%s') then false() else true()", feldName, vergleichWert);
 	}
 
 	public String getFeldName() {

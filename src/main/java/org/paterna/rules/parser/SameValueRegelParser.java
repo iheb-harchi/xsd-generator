@@ -15,7 +15,7 @@ public class SameValueRegelParser extends RuleParser<SameValueRule> {
 	public SameValueRule parse(String text) {
 		// Matcher auf den Eingabetext anwenden
 		Matcher matcher = PATTERN.matcher(text);
-		if (!matcher.matches()) {
+		if (!matcher.find()) {
 			throw new IllegalArgumentException("Ungültiges Format: " + text);
 		}
 

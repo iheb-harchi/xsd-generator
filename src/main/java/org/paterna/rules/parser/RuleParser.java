@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public abstract class RuleParser<T> {
 
-	protected static final String FIELD_PATTERN = "[A-Za-z]\\d+(?:\\.\\d+)?";
+	public static final String FIELD_PATTERN = "[A-Za-z]\\d+(?:\\.\\d+)?";
 
 	public abstract T parse(String text) throws IllegalArgumentException;
 

@@ -45,6 +45,43 @@ public class XsdGenerator {
 		writer.close();
 	}
 
+	public void generateXSD2(List<FormField> rows, String filePath) throws IOException {
+		try (FileWriter writer = new FileWriter(filePath)) {
+			writer.write("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+			writer.write("<xs:schema xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" ");
+			writer.write("xmlns:vc=\"http://www.w3.org/2007/XMLSchema-versioning\" ");
+			writer.write("elementFormDefault=\"qualified\" vc:minVersion=\"1.1\">\n");
+
+			// Beginne mit dem Erstellen des Haupt-Elements
+			writer.write("  <xs:element name=\"Datensatz\">\n");
+			writer.write("    <xs:complexType>\n");
+			writer.write("      <xs:sequence>\n");
+
+			// Iteriere über alle Formfelder und füge sie als xs:element hinzu
+			for (FormField row : rows) {
+				writer.write(
+						"        <xs:element name=\"" + row.getText() + "\" type=\"xs:string\" minOccurs=\"0\"/>\n");
+			}
+
+			writer.write("      </xs:sequence>\n");
+
+			// Hier werden die Bedingungen (xs:assert) nach der sequence hinzugefügt
+			for (FormField row : rows) {
+				List<Rule> matchedRules = ruleMatcher.matchRules(row);
+				for (Rule rule : matchedRules) {
+					// Sicherstellen, dass die `actualField` an `toXsdAssert` übergeben wird
+					writer.write("      <xs:assert test=\"" + rule.toXsdAssert(row.getText()) + "\"/>\n");
+				}
+			}
+
+			writer.write("    </xs:complexType>\n");
+			writer.write("  </xs:element>\n");
+
+			writer.write("</xs:schema>");
+		}
+	}
+
+
 //	public void generateXSD(List<FormField> fields, String filePath) throws IOException {
 //		try (FileWriter writer = new FileWriter(filePath)) {
 //			writeXsdHeader(writer);

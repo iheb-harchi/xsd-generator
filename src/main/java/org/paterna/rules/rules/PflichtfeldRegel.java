@@ -36,4 +36,15 @@ public class PflichtfeldRegel extends Rule {
 	public int getWert2() {
 		return wert2;
 	}
+
+	@Override
+
+	    public String toXsdAssert(String actualElement) {
+	        if (actualElement == null || actualElement.isEmpty()) {
+	            throw new IllegalArgumentException("Das aktuelle Element darf nicht null oder leer sein.");
+	        }
+
+	        // Dynamisches XSD-Assert unter Verwendung des aktuellen Elements
+	        return String.format("if (%s = '%s' and %s &lt; %d) then %s else false()", feldName1, wert1, feldName2, wert2, actualElement);
+	    }
 }

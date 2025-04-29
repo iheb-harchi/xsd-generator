@@ -17,4 +17,13 @@ public class AutoFillRule extends Rule {
 		return String.format("$value = ../%s", dateField);
 	}
 
+	public String toXsdAssert(String actualElement) {
+		if (dateField == null) {
+			throw new IllegalStateException("Das Datumfeld wurde nicht korrekt extrahiert.");
+		}
+
+		// XSD-Element erstellen und das Datumfeld zuweisen
+		return String.format("%s = ../%s", actualElement, dateField);
+	}
+
 }

@@ -18,4 +18,11 @@ public class EntwederOderRule extends Rule {
 		return alternativeFields.stream().map(field -> field + " != ''").reduce((a, b) -> a + " or " + b)
 				.orElse("true()");
 	}
+
+	@Override
+	public String toXsdAssert(String actualElement) {
+		// Falls das aktuelle Element verwendet werden soll, dann dynamisch erstellen
+		return alternativeFields.stream().map(field -> actualElement + " = " + field + " or " + field + " != ''")
+				.reduce((a, b) -> a + " or " + b).orElse("true()");
+	}
 }

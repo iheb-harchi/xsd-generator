@@ -34,4 +34,18 @@ public class DynamicValueRule extends Rule {
 		String[] parts = date.split("\\.");
 		return parts[2] + "-" + parts[1] + "-" + parts[0];
 	}
+
+	@Override
+	public String toXsdAssert(String actualElement) {
+		StringBuilder sb = new StringBuilder();
+		dateValueMap.forEach((range, value) -> {
+			String[] dates = range.split(" - ");
+			sb.append(String.format("if (%s &gt;= xs:date('%s') and %s &lt;= xs:date('%s')) then %s = %.2f else ",
+					startDateField, convertToXSDate(dates[0]), endDateField, convertToXSDate(dates[1]), actualElement,
+					Double.parseDouble(value)));
+		});
+		sb.append("true();");
+		return sb.toString();
+	}
+
 }

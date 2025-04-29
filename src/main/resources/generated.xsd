@@ -1,1001 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-  <xs:element name="LUFT1.0_LOA_FFS1110-1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A2.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A2.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A2.3">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A2.4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A3">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A5">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A6">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A7">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A8">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A9">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A10">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="A11">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-159">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-160">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-15">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C2.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C2.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-161">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C2.3">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="C2.3 != '' or C2.5 != ''"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C2.4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C2.5">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="C2.3 != '' or C2.5 != ''"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C3">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C3.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C3.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C5">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C6">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C7">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C7.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C8">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C8.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C8.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C9">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C9.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C9.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C12">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C13">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C14">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C15">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C15 != 'Deutschland') then false() else true()"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C16">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C17">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C18">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C19">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C20">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C21">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C22">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C23">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C37">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C37.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C38">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C39">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C40">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C41">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="$value = ../C6"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C42">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="$value = ../C6"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C43">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C43.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C44">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C45">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C46">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C47">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="$value = ../C6"/>
- <xs:assert test="$value = ../C41"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C48">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="$value = ../C6"/>
- <xs:assert test="$value = ../C42"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C49">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="$value = ../C43"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C50">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C51">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C52">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C52.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C53">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C54">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 7,38 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 12,73 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 12,77 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 7,37 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 15,53 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 12,88 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 7,50 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 7,38 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 12,90 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 7,46 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 12,48 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 7,47 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C55">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 1,48 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 2,55 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 2,55 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 1,47 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 3,11 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 2,58 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 1,50 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 1,48 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 2,58 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 1,49 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 2,50 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 1,49 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C56">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 23,05 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 32,25 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 32,35 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 23,01 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 39,34 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 32,62 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 23,43 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 23,05 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 32,67 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 23,31 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 31,61 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 23,32 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C57">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 41,19 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 58,06 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 58,23 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 41,43 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 70,83 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 58,73 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 42,18 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 41,49 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 58,82 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 41,97 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 56,91 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 41,99 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C58">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C59">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C60">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C61">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C62">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C63">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C63.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C63.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C63.3">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C63.4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C65">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C66">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C67">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C67.1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C68">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C69">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 7,38 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 12,73 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 12,77 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 7,37 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 15,53 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 12,88 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 7,50 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 7,38 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 12,90 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 7,46 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 12,48 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 7,47 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C70">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 23,05 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 32,25 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 32,35 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 23,01 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 39,34 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 32,62 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 23,43 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 23,05 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 32,67 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 23,31 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 31,61 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 23,32 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C71">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then $value = 41,19 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then $value = 58,06 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then $value = 58,23 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then $value = 41,43 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then $value = 70,83 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then $value = 58,73 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then $value = 42,18 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then $value = 41,49 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then $value = 58,82 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then $value = 41,97 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then $value = 56,91 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then $value = 41,99 else true();"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C72">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C73">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C74">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C75">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C76">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C77">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C78">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C79">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C80">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C81">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C82">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C83">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C84">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C85">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C86">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C87">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C88">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C89">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C90">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C91">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C92">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C93">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C94">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C95">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C96">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C97">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C98">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C99">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C100">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C101">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0) then true() else false()"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C102">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0) then true() else false()"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C102.1">
-    <xs:annotation>
-      <xs:documentation>
- <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0) then true() else false()"/>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C102.2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C104">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C105">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="C106">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-126">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-129">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-131">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-132">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D6">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D7">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D8">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D98">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D99">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="D100">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-139">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E3">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E5">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E6">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E7">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E8">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E10">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E11">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="E12">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="LUFT1.0_LOA_FFS1110-151">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G1">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G2">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G3">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G4">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G5">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G6">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
-  </xs:element>
-  <xs:element name="G7">
-    <xs:annotation>
-      <xs:documentation>
-      </xs:documentation>
-    </xs:annotation>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" vc:minVersion="1.1">
+  <xs:element name="Datensatz">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LUFT1.0_LOA_FFS1110-1" type="xs:string" minOccurs="0"/>
+        <xs:element name="A1" type="xs:string" minOccurs="0"/>
+        <xs:element name="A2" type="xs:string" minOccurs="0"/>
+        <xs:element name="A2.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="A2.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="A2.3" type="xs:string" minOccurs="0"/>
+        <xs:element name="A2.4" type="xs:string" minOccurs="0"/>
+        <xs:element name="A3" type="xs:string" minOccurs="0"/>
+        <xs:element name="A4" type="xs:string" minOccurs="0"/>
+        <xs:element name="A5" type="xs:string" minOccurs="0"/>
+        <xs:element name="A6" type="xs:string" minOccurs="0"/>
+        <xs:element name="A7" type="xs:string" minOccurs="0"/>
+        <xs:element name="A8" type="xs:string" minOccurs="0"/>
+        <xs:element name="A9" type="xs:string" minOccurs="0"/>
+        <xs:element name="A10" type="xs:string" minOccurs="0"/>
+        <xs:element name="A11" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-159" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-160" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-15" type="xs:string" minOccurs="0"/>
+        <xs:element name="C2" type="xs:string" minOccurs="0"/>
+        <xs:element name="C2.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C2.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-161" type="xs:string" minOccurs="0"/>
+        <xs:element name="C2.3" type="xs:string" minOccurs="0"/>
+        <xs:element name="C2.4" type="xs:string" minOccurs="0"/>
+        <xs:element name="C2.5" type="xs:string" minOccurs="0"/>
+        <xs:element name="C3" type="xs:string" minOccurs="0"/>
+        <xs:element name="C3.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C3.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="C4" type="xs:string" minOccurs="0"/>
+        <xs:element name="C5" type="xs:string" minOccurs="0"/>
+        <xs:element name="C6" type="xs:string" minOccurs="0"/>
+        <xs:element name="C7" type="xs:string" minOccurs="0"/>
+        <xs:element name="C7.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C8" type="xs:string" minOccurs="0"/>
+        <xs:element name="C8.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C8.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="C9" type="xs:string" minOccurs="0"/>
+        <xs:element name="C9.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C9.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="C12" type="xs:string" minOccurs="0"/>
+        <xs:element name="C13" type="xs:string" minOccurs="0"/>
+        <xs:element name="C14" type="xs:string" minOccurs="0"/>
+        <xs:element name="C15" type="xs:string" minOccurs="0"/>
+        <xs:element name="C16" type="xs:string" minOccurs="0"/>
+        <xs:element name="C17" type="xs:string" minOccurs="0"/>
+        <xs:element name="C18" type="xs:string" minOccurs="0"/>
+        <xs:element name="C19" type="xs:string" minOccurs="0"/>
+        <xs:element name="C20" type="xs:string" minOccurs="0"/>
+        <xs:element name="C21" type="xs:string" minOccurs="0"/>
+        <xs:element name="C22" type="xs:string" minOccurs="0"/>
+        <xs:element name="C23" type="xs:string" minOccurs="0"/>
+        <xs:element name="C37" type="xs:string" minOccurs="0"/>
+        <xs:element name="C37.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C38" type="xs:string" minOccurs="0"/>
+        <xs:element name="C39" type="xs:string" minOccurs="0"/>
+        <xs:element name="C40" type="xs:string" minOccurs="0"/>
+        <xs:element name="C41" type="xs:string" minOccurs="0"/>
+        <xs:element name="C42" type="xs:string" minOccurs="0"/>
+        <xs:element name="C43" type="xs:string" minOccurs="0"/>
+        <xs:element name="C43.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C44" type="xs:string" minOccurs="0"/>
+        <xs:element name="C45" type="xs:string" minOccurs="0"/>
+        <xs:element name="C46" type="xs:string" minOccurs="0"/>
+        <xs:element name="C47" type="xs:string" minOccurs="0"/>
+        <xs:element name="C48" type="xs:string" minOccurs="0"/>
+        <xs:element name="C49" type="xs:string" minOccurs="0"/>
+        <xs:element name="C50" type="xs:string" minOccurs="0"/>
+        <xs:element name="C51" type="xs:string" minOccurs="0"/>
+        <xs:element name="C52" type="xs:string" minOccurs="0"/>
+        <xs:element name="C52.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C53" type="xs:string" minOccurs="0"/>
+        <xs:element name="C54" type="xs:string" minOccurs="0"/>
+        <xs:element name="C55" type="xs:string" minOccurs="0"/>
+        <xs:element name="C56" type="xs:string" minOccurs="0"/>
+        <xs:element name="C57" type="xs:string" minOccurs="0"/>
+        <xs:element name="C58" type="xs:string" minOccurs="0"/>
+        <xs:element name="C59" type="xs:string" minOccurs="0"/>
+        <xs:element name="C60" type="xs:string" minOccurs="0"/>
+        <xs:element name="C61" type="xs:string" minOccurs="0"/>
+        <xs:element name="C62" type="xs:string" minOccurs="0"/>
+        <xs:element name="C63" type="xs:string" minOccurs="0"/>
+        <xs:element name="C63.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C63.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="C63.3" type="xs:string" minOccurs="0"/>
+        <xs:element name="C63.4" type="xs:string" minOccurs="0"/>
+        <xs:element name="C65" type="xs:string" minOccurs="0"/>
+        <xs:element name="C66" type="xs:string" minOccurs="0"/>
+        <xs:element name="C67" type="xs:string" minOccurs="0"/>
+        <xs:element name="C67.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C68" type="xs:string" minOccurs="0"/>
+        <xs:element name="C69" type="xs:string" minOccurs="0"/>
+        <xs:element name="C70" type="xs:string" minOccurs="0"/>
+        <xs:element name="C71" type="xs:string" minOccurs="0"/>
+        <xs:element name="C72" type="xs:string" minOccurs="0"/>
+        <xs:element name="C73" type="xs:string" minOccurs="0"/>
+        <xs:element name="C74" type="xs:string" minOccurs="0"/>
+        <xs:element name="C75" type="xs:string" minOccurs="0"/>
+        <xs:element name="C76" type="xs:string" minOccurs="0"/>
+        <xs:element name="C77" type="xs:string" minOccurs="0"/>
+        <xs:element name="C78" type="xs:string" minOccurs="0"/>
+        <xs:element name="C79" type="xs:string" minOccurs="0"/>
+        <xs:element name="C80" type="xs:string" minOccurs="0"/>
+        <xs:element name="C81" type="xs:string" minOccurs="0"/>
+        <xs:element name="C82" type="xs:string" minOccurs="0"/>
+        <xs:element name="C83" type="xs:string" minOccurs="0"/>
+        <xs:element name="C84" type="xs:string" minOccurs="0"/>
+        <xs:element name="C85" type="xs:string" minOccurs="0"/>
+        <xs:element name="C86" type="xs:string" minOccurs="0"/>
+        <xs:element name="C87" type="xs:string" minOccurs="0"/>
+        <xs:element name="C88" type="xs:string" minOccurs="0"/>
+        <xs:element name="C89" type="xs:string" minOccurs="0"/>
+        <xs:element name="C90" type="xs:string" minOccurs="0"/>
+        <xs:element name="C91" type="xs:string" minOccurs="0"/>
+        <xs:element name="C92" type="xs:string" minOccurs="0"/>
+        <xs:element name="C93" type="xs:string" minOccurs="0"/>
+        <xs:element name="C94" type="xs:string" minOccurs="0"/>
+        <xs:element name="C95" type="xs:string" minOccurs="0"/>
+        <xs:element name="C96" type="xs:string" minOccurs="0"/>
+        <xs:element name="C97" type="xs:string" minOccurs="0"/>
+        <xs:element name="C98" type="xs:string" minOccurs="0"/>
+        <xs:element name="C99" type="xs:string" minOccurs="0"/>
+        <xs:element name="C100" type="xs:string" minOccurs="0"/>
+        <xs:element name="C101" type="xs:string" minOccurs="0"/>
+        <xs:element name="C102" type="xs:string" minOccurs="0"/>
+        <xs:element name="C102.1" type="xs:string" minOccurs="0"/>
+        <xs:element name="C102.2" type="xs:string" minOccurs="0"/>
+        <xs:element name="C104" type="xs:string" minOccurs="0"/>
+        <xs:element name="C105" type="xs:string" minOccurs="0"/>
+        <xs:element name="C106" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-126" type="xs:string" minOccurs="0"/>
+        <xs:element name="D1" type="xs:string" minOccurs="0"/>
+        <xs:element name="D2" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-129" type="xs:string" minOccurs="0"/>
+        <xs:element name="D4" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-131" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-132" type="xs:string" minOccurs="0"/>
+        <xs:element name="D6" type="xs:string" minOccurs="0"/>
+        <xs:element name="D7" type="xs:string" minOccurs="0"/>
+        <xs:element name="D8" type="xs:string" minOccurs="0"/>
+        <xs:element name="D98" type="xs:string" minOccurs="0"/>
+        <xs:element name="D99" type="xs:string" minOccurs="0"/>
+        <xs:element name="D100" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-139" type="xs:string" minOccurs="0"/>
+        <xs:element name="E1" type="xs:string" minOccurs="0"/>
+        <xs:element name="E2" type="xs:string" minOccurs="0"/>
+        <xs:element name="E3" type="xs:string" minOccurs="0"/>
+        <xs:element name="E4" type="xs:string" minOccurs="0"/>
+        <xs:element name="E5" type="xs:string" minOccurs="0"/>
+        <xs:element name="E6" type="xs:string" minOccurs="0"/>
+        <xs:element name="E7" type="xs:string" minOccurs="0"/>
+        <xs:element name="E8" type="xs:string" minOccurs="0"/>
+        <xs:element name="E10" type="xs:string" minOccurs="0"/>
+        <xs:element name="E11" type="xs:string" minOccurs="0"/>
+        <xs:element name="E12" type="xs:string" minOccurs="0"/>
+        <xs:element name="LUFT1.0_LOA_FFS1110-151" type="xs:string" minOccurs="0"/>
+        <xs:element name="G1" type="xs:string" minOccurs="0"/>
+        <xs:element name="G2" type="xs:string" minOccurs="0"/>
+        <xs:element name="G3" type="xs:string" minOccurs="0"/>
+        <xs:element name="G4" type="xs:string" minOccurs="0"/>
+        <xs:element name="G5" type="xs:string" minOccurs="0"/>
+        <xs:element name="G6" type="xs:string" minOccurs="0"/>
+        <xs:element name="G7" type="xs:string" minOccurs="0"/>
+      </xs:sequence>
+      <xs:assert test="C2.3 = C2.3 or C2.3 != '' or C2.3 = C2.5 or C2.5 != ''"/>
+      <xs:assert test="C2.5 = C2.3 or C2.3 != '' or C2.5 = C2.5 or C2.5 != ''"/>
+      <xs:assert test="if (C15 = 'Deutschland') then C15 != '' else true()"/>
+      <xs:assert test="C41 = ../C6"/>
+      <xs:assert test="C42 = ../C6"/>
+      <xs:assert test="C47 = ../C6"/>
+      <xs:assert test="C47 = ../C41"/>
+      <xs:assert test="C48 = ../C6"/>
+      <xs:assert test="C48 = ../C42"/>
+      <xs:assert test="C49 = ../C43"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C54 = 7,38 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C54 = 12,73 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C54 = 12,77 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C54 = 7,37 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C54 = 15,53 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C54 = 12,88 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C54 = 7,50 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C54 = 7,38 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C54 = 12,90 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C54 = 7,46 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C54 = 12,48 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C54 = 7,47 else true();"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C55 = 1,48 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C55 = 2,55 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C55 = 2,55 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C55 = 1,47 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C55 = 3,11 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C55 = 2,58 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C55 = 1,50 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C55 = 1,48 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C55 = 2,58 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C55 = 1,49 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C55 = 2,50 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C55 = 1,49 else true();"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C56 = 23,05 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C56 = 32,25 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C56 = 32,35 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C56 = 23,01 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C56 = 39,34 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C56 = 32,62 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C56 = 23,43 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C56 = 23,05 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C56 = 32,67 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C56 = 23,31 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C56 = 31,61 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C56 = 23,32 else true();"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C57 = 41,19 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C57 = 58,06 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C57 = 58,23 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C57 = 41,43 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C57 = 70,83 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C57 = 58,73 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C57 = 42,18 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C57 = 41,49 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C57 = 58,82 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C57 = 41,97 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C57 = 56,91 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C57 = 41,99 else true();"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C69 = 7,38 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C69 = 12,73 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C69 = 12,77 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C69 = 7,37 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C69 = 15,53 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C69 = 12,88 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C69 = 7,50 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C69 = 7,38 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C69 = 12,90 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C69 = 7,46 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C69 = 12,48 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C69 = 7,47 else true();"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C70 = 23,05 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C70 = 32,25 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C70 = 32,35 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C70 = 23,01 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C70 = 39,34 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C70 = 32,62 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C70 = 23,43 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C70 = 23,05 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C70 = 32,67 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C70 = 23,31 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C70 = 31,61 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C70 = 23,32 else true();"/>
+      <xs:assert test="if (C5 &gt;= xs:date('2016-01-01') and C6 &lt;= xs:date('2016-12-31')) then C71 = 41,19 else if (C5 &gt;= xs:date('2023-01-01') and C6 &lt;= xs:date('2023-12-31')) then C71 = 58,06 else if (C5 &gt;= xs:date('2022-01-01') and C6 &lt;= xs:date('2022-12-31')) then C71 = 58,23 else if (C5 &gt;= xs:date('2020-01-01') and C6 &lt;= xs:date('2020-03-31')) then C71 = 41,43 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2999-12-31')) then C71 = 70,83 else if (C5 &gt;= xs:date('2021-01-01') and C6 &lt;= xs:date('2021-12-31')) then C71 = 58,73 else if (C5 &gt;= xs:date('2012-01-01') and C6 &lt;= xs:date('2015-12-31')) then C71 = 42,18 else if (C5 &gt;= xs:date('2019-01-01') and C6 &lt;= xs:date('2019-12-31')) then C71 = 41,49 else if (C5 &gt;= xs:date('2020-04-01') and C6 &lt;= xs:date('2020-12-31')) then C71 = 58,82 else if (C5 &gt;= xs:date('2018-01-01') and C6 &lt;= xs:date('2018-12-31')) then C71 = 41,97 else if (C5 &gt;= xs:date('2024-01-01') and C6 &lt;= xs:date('2024-04-30')) then C71 = 56,91 else if (C5 &gt;= xs:date('2017-01-01') and C6 &lt;= xs:date('2017-12-31')) then C71 = 41,99 else true();"/>
+      <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0) then C101 else false()"/>
+      <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0) then C102 else false()"/>
+      <xs:assert test="if (C3.2 = 'Steuerberichtigung einer Steuermeldung ab.' and C65 &lt; 0) then C102.1 else false()"/>
+    </xs:complexType>
   </xs:element>
 </xs:schema>

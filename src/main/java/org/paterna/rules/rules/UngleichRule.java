@@ -12,7 +12,7 @@ public class UngleichRule extends Rule {
 
 	@Override
 	public String toXsdAssert() {
-		return String.format("if (%s != '%s') then false() else true()", feldName, vergleichWert);
+		return String.format("if (%s = '%s') then false() else true()", feldName, vergleichWert);
 	}
 
 	public String getFeldName() {
@@ -29,6 +29,18 @@ public class UngleichRule extends Rule {
 
 	public void setVergleichWert(String vergleichWert) {
 		this.vergleichWert = vergleichWert;
+	}
+
+	@Override
+	public String toXsdAssert(String actualElement) {
+		if (feldName == null || vergleichWert == null || actualElement == null) {
+			throw new IllegalStateException(
+					"Feldname, Vergleichswert oder aktuelles Element sind nicht korrekt extrahiert.");
+		}
+
+		// Wenn das andere Feld den Vergleichswert nicht hat, wird das aktuelle Feld
+		// pflichtig gemacht.
+		return String.format("if (%s = '%s') then %s != '' else true()", feldName, vergleichWert, actualElement);
 	}
 
 }
